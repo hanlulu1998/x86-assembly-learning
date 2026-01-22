@@ -1,0 +1,8 @@
+megs: 32
+romimage: file=/usr/share/bochs/BIOS-bochs-legacy
+vgaromimage: file=/usr/share/bochs/VGABIOS-lgpl-latest
+boot: disk
+ata0-master: type=disk, path="mbr.img", mode=flat
+log: bochs.log
+display_library: x
+sound: enabled=0
